@@ -1,25 +1,22 @@
-<html>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.js"></script>
+<!DOCTYPE html>
+<html lang="en">
 	<head>
  		<title>Las Antipodas</title>
+    <meta charset="utf-8">
+		<title>SX-Nav-5.7.12-Antipodas</title>
+    <script src="http://maps.googleapis.com/maps/api/js"></script>
+    <script type="text/javascript" src="jquery.js"></script>
+    <script type="text/javascript" src="modernizr.min.js"></script>
+    <script type="text/javascript" src="index.js"></script>
 		<style>
-			#map {
+			#map1, #map2 {
 				width:500px;
 				height: 400px;
 			}
  		</style>
  	</head>
 	<body>
-        	<p id='map'></p>
-  	        <script type="text/javascript" charset="utf-8">
-            function initMap(){
-                var mapDiv = document.getElementById("map");
-				var map = new google.maps.Map(mapDiv, {
-					center: {lat: 40.283743650362996, lng: -3.8191530513763428},
-					zoom: 15
-				});
- 			}
- 		</script>
-		<script src = "https://maps.googleapis.com/maps/api/js?callback=initMap" async defer></script>
+    <h1 id='map1'></h1>
+    <h1 id='map2'></h1>
 	</body>
 </html>
